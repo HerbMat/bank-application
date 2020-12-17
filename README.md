@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/HerbMat/bank-application.svg?branch=main)](https://travis-ci.org/HerbMat/bank-application)
 # Bank application
 ## Introduction
 Example project for Digital Colliers. It is application which operates on three entities. 
