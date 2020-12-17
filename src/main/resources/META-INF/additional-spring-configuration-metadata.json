@@ -1,0 +1,24 @@
+{
+  "properties": [
+    {
+      "name": "bank-application.mongo.load-data",
+      "type": "java.lang.Boolean",
+      "description": "Specifies if spring should load initial data to mongo database.",
+      "defaultValue": "false"
+    }
+  ],
+  "hints": [
+    {
+      "name": "bank-application.mongo.load-data",
+      "values": [
+        {
+          "value": "true",
+          "description": "Load initial data."
+        },
+        {
+          "value": "false",
+          "description": "Initial load is disabled."
+      }
+    ]
+  }
+]}

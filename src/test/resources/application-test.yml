@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      database: bank-database
+  security:
+    user:
+      name: test
+      password: test
+bank-application:
+  mongo:
+    load-data: true
