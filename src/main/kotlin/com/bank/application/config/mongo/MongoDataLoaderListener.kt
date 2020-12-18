@@ -25,6 +25,9 @@ class MongoDataLoaderListener(
     }
 
     override fun onApplicationEvent(event: ApplicationStartedEvent) {
+        accountTypeRepository.deleteAll()
+        customerRepository.deleteAll()
+        transactionRepository.deleteAll()
         LOG.debug("Loading data to database.")
         accountTypeRepository.saveAll(MongoInitialDataLoader.getAccountTypes())
         LOG.debug("Account Types Saved")
