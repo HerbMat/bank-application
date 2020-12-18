@@ -34,6 +34,17 @@ spring:
 ```
 docker-compose up mongo
 ```
+## Swagger ui endpoint
+Swagger ui is protected by base authorization. 
+The path for swagger is below.
+```
+{base_url}/swagger-ui/
+```
+<em>Important: After first authentication swagger can redirect to:</em>
+```
+{base_url}/serviceWorker.js
+```
+<em>If you again enter swagger base url everything should work fine.</em>
 
 ## Loading initial data on startup
 We have to add to application.yml
